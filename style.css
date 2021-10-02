@@ -1,0 +1,35 @@
+.formBox{
+    width: 30%;
+    height: 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: khaki;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+  
+}
+
+body {
+    background-image: url(./p04tx3m6.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    z-index: -1;
+    display:grid;
+    align-items: center;
+    justify-items: center;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 5px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  p {
+      text-align: center;
+  }
